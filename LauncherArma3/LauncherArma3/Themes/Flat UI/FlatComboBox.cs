@@ -15,7 +15,7 @@ namespace FlatUI
 		private int x;
 		private int y;
 
-		private MouseState State = MouseState.None;
+		private MouseState State  = MouseState.None;
 		protected override void OnMouseDown(MouseEventArgs e)
 		{
 			base.OnMouseDown(e);

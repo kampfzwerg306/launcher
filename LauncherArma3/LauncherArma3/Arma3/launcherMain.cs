@@ -308,7 +308,7 @@ namespace LauncherArma3
                             }
                         }
                         catch (Exception ex)
-                        { Console.WriteLine(ex); }
+                        { MessageBox.Show(ex.Message); }
                     }
                 }
             }
@@ -332,7 +332,7 @@ namespace LauncherArma3
                             }
                         }
                         catch (Exception ex)
-                        { }
+                        { MessageBox.Show(ex.Message); }
                     }
                 }
             }
@@ -356,7 +356,7 @@ namespace LauncherArma3
                             }
                         }
                         catch (Exception ex)
-                        { }
+                        {MessageBox.Show(ex.Message);}
                     }
                 }
             }
