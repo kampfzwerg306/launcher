@@ -283,7 +283,7 @@
     <errorListing>An error occurred during the listing of mods</errorListing>
     <taskforceInstallerMissing>Missing the installer of the task force</taskforceInstallerMissing>
     <installCancel>Installation Cancelled</installCancel>
-    <minutes>Minute</minutes>
+    <minutes>Minuten</minutes>
     <seconds>Sekunden</seconds>
     <hours>Stunden</hours>
     <playersIG>Spieler online</playersIG>

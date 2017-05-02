@@ -795,7 +795,7 @@ namespace LauncherArma3
 
         bool checkArmaDirectory(string path)
         {
-            if (File.Exists(path + @"\arma3.exe"))
+            if (File.Exists(path + @"\arma3.exe") || File.Exists(path + @"\arma3_x64.exe.exe"))
             {
                 directoryLabel.Text = translateDic["armaOK"];
                 armaDirectory = path;
