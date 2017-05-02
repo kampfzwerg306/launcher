@@ -80,6 +80,7 @@
             this.loginUsername.Size = new System.Drawing.Size(249, 23);
             this.loginUsername.TabIndex = 12;
             this.loginUsername.UseSystemPasswordChar = false;
+            this.loginUsername.Click += new System.EventHandler(this.loginUsername_Click);
             // 
             // loginPassword
             // 

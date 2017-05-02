@@ -74,7 +74,7 @@
             this.loginLink.Primary = true;
             this.loginLink.Size = new System.Drawing.Size(245, 46);
             this.loginLink.TabIndex = 28;
-            this.loginLink.Text = "Sign In";
+            this.loginLink.Text = "Einloggen";
             this.loginLink.UseVisualStyleBackColor = true;
             this.loginLink.Click += new System.EventHandler(this.registerLink_Click);
             // 
@@ -87,7 +87,7 @@
             this.registerButton.Primary = true;
             this.registerButton.Size = new System.Drawing.Size(249, 46);
             this.registerButton.TabIndex = 25;
-            this.registerButton.Text = "Register";
+            this.registerButton.Text = "Registrieren";
             this.registerButton.UseVisualStyleBackColor = true;
             this.registerButton.Click += new System.EventHandler(this.registerButton_Click);
             // 

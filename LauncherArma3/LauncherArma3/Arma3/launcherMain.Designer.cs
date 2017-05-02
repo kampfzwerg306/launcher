@@ -207,7 +207,7 @@
             this.settingsButton.Primary = true;
             this.settingsButton.Size = new System.Drawing.Size(126, 36);
             this.settingsButton.TabIndex = 18;
-            this.settingsButton.Text = "Settings";
+            this.settingsButton.Text = "Einstellungen";
             this.settingsButton.UseVisualStyleBackColor = true;
             this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
             // 
@@ -220,7 +220,7 @@
             this.logoutButton.Primary = true;
             this.logoutButton.Size = new System.Drawing.Size(134, 36);
             this.logoutButton.TabIndex = 17;
-            this.logoutButton.Text = "Log Out";
+            this.logoutButton.Text = "Ausloggen";
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.disconnectButton_Click);
             // 
@@ -244,7 +244,7 @@
             this.playButton.Primary = true;
             this.playButton.Size = new System.Drawing.Size(158, 46);
             this.playButton.TabIndex = 17;
-            this.playButton.Text = "Play";
+            this.playButton.Text = "Spielen";
             this.playButton.UseVisualStyleBackColor = true;
             this.playButton.Click += new System.EventHandler(this.playButton_Click);
             // 
@@ -257,7 +257,7 @@
             this.chooseButton.Primary = true;
             this.chooseButton.Size = new System.Drawing.Size(214, 46);
             this.chooseButton.TabIndex = 18;
-            this.chooseButton.Text = "Choose arma directory";
+            this.chooseButton.Text = "Arma3 Ordner Wählen";
             this.chooseButton.UseVisualStyleBackColor = true;
             this.chooseButton.Visible = false;
             this.chooseButton.Click += new System.EventHandler(this.chooseButton_Click);
@@ -285,7 +285,7 @@
             this.cancelButton.Primary = true;
             this.cancelButton.Size = new System.Drawing.Size(158, 46);
             this.cancelButton.TabIndex = 23;
-            this.cancelButton.Text = "Cancel";
+            this.cancelButton.Text = "Abbrechen";
             this.cancelButton.UseVisualStyleBackColor = true;
             this.cancelButton.Visible = false;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
@@ -294,7 +294,7 @@
             // 
             this.forceUpdate.AutoSize = true;
             this.forceUpdate.Depth = 0;
-            this.forceUpdate.Font = new System.Drawing.Font("Roboto", 10F);
+            this.forceUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.forceUpdate.Location = new System.Drawing.Point(814, 474);
             this.forceUpdate.Margin = new System.Windows.Forms.Padding(0);
             this.forceUpdate.MouseLocation = new System.Drawing.Point(-1, -1);
@@ -334,7 +334,7 @@
             this.taskforceButton.Primary = true;
             this.taskforceButton.Size = new System.Drawing.Size(145, 36);
             this.taskforceButton.TabIndex = 21;
-            this.taskforceButton.Text = "Install taskforce";
+            this.taskforceButton.Text = "Taskforce installieren";
             this.taskforceButton.UseVisualStyleBackColor = true;
             this.taskforceButton.Click += new System.EventHandler(this.taskforceButton_Click);
             // 
@@ -416,7 +416,7 @@
             this.visitTeamSpeakButton.Primary = true;
             this.visitTeamSpeakButton.Size = new System.Drawing.Size(115, 33);
             this.visitTeamSpeakButton.TabIndex = 35;
-            this.visitTeamSpeakButton.Text = "visit our teamspeak";
+            this.visitTeamSpeakButton.Text = "TS3";
             this.visitTeamSpeakButton.UseVisualStyleBackColor = true;
             this.visitTeamSpeakButton.Click += new System.EventHandler(this.teamSpeakIcon_Click);
             // 
@@ -429,7 +429,7 @@
             this.visitSiteButton.Primary = true;
             this.visitSiteButton.Size = new System.Drawing.Size(115, 33);
             this.visitSiteButton.TabIndex = 34;
-            this.visitSiteButton.Text = "Visit our website";
+            this.visitSiteButton.Text = "Website";
             this.visitSiteButton.UseVisualStyleBackColor = true;
             this.visitSiteButton.Click += new System.EventHandler(this.webSiteIcon_Click);
             // 
@@ -475,7 +475,7 @@
             this.changeGameButton.Primary = true;
             this.changeGameButton.Size = new System.Drawing.Size(145, 36);
             this.changeGameButton.TabIndex = 21;
-            this.changeGameButton.Text = "Change   server/game";
+            this.changeGameButton.Text = "Server Wechsel";
             this.changeGameButton.UseVisualStyleBackColor = true;
             this.changeGameButton.Click += new System.EventHandler(this.changeGameButton_Click);
             // 
@@ -628,7 +628,7 @@
             this.IGplayerLabel_username.Name = "IGplayerLabel_username";
             this.IGplayerLabel_username.Size = new System.Drawing.Size(126, 14);
             this.IGplayerLabel_username.TabIndex = 31;
-            this.IGplayerLabel_username.Text = "Username :";
+            this.IGplayerLabel_username.Text = "Name :";
             // 
             // IGplayer_username
             // 
@@ -678,7 +678,7 @@
             this.serverPlayersLabel.Name = "serverPlayersLabel";
             this.serverPlayersLabel.Size = new System.Drawing.Size(103, 14);
             this.serverPlayersLabel.TabIndex = 27;
-            this.serverPlayersLabel.Text = "Players in game :";
+            this.serverPlayersLabel.Text = "Spieler auf den Server :";
             // 
             // serverPlayers
             // 
@@ -847,7 +847,7 @@
             this.playerUsernameLabel.Name = "playerUsernameLabel";
             this.playerUsernameLabel.Size = new System.Drawing.Size(126, 14);
             this.playerUsernameLabel.TabIndex = 12;
-            this.playerUsernameLabel.Text = "Username :";
+            this.playerUsernameLabel.Text = "Benutzername :";
             // 
             // playerStatus
             // 

@@ -38,7 +38,7 @@
             this.serverPass.BackColor = System.Drawing.Color.White;
             this.serverPass.Depth = 0;
             this.serverPass.ForeColor = System.Drawing.Color.White;
-            this.serverPass.Hint = "Type the password server";
+            this.serverPass.Hint = "Server Passwort eingeben";
             this.serverPass.Location = new System.Drawing.Point(23, 63);
             this.serverPass.MouseState = MaterialSkin.MouseState.HOVER;
             this.serverPass.Name = "serverPass";
@@ -59,7 +59,7 @@
             this.connectButton.Primary = true;
             this.connectButton.Size = new System.Drawing.Size(286, 36);
             this.connectButton.TabIndex = 18;
-            this.connectButton.Text = "Connect";
+            this.connectButton.Text = "Verbinden";
             this.connectButton.UseVisualStyleBackColor = true;
             this.connectButton.Click += new System.EventHandler(this.connectButton_Click);
             // 
@@ -75,7 +75,7 @@
             this.Name = "serverPassword";
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Purple;
-            this.Text = "Server authentification";
+            this.Text = "Server Authentification";
             this.Load += new System.EventHandler(this.serverPassword_Load);
             this.ResumeLayout(false);
 

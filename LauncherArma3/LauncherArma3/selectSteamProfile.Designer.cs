@@ -62,7 +62,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "selectSteamProfile";
             this.Resizable = false;
-            this.Text = "Choose your steam account";
+            this.Text = "Wähle dein Steam Account";
             this.Load += new System.EventHandler(this.selectSteamProfile_Load);
             this.ResumeLayout(false);
 

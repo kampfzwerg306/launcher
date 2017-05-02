@@ -210,7 +210,7 @@
     <loginMsg>Bereits registriert ?</loginMsg>
     <registerLink>oder registrieren</registerLink>
     <commingSoon>demnächst</commingSoon>
-    <registerMsg>Neu in unserer Gemeinde ?</registerMsg>
+    <registerMsg>Neu in unserer Community ?</registerMsg>
     <username>Benutzername</username>
     <password>Kennwort</password>
     <passwordConfirm>Bestätige das Passwort</passwordConfirm>
@@ -227,40 +227,40 @@
     <errorUpdate>Error launcherUpdate.exe wurde nicht gefunden!</errorUpdate>
     <updateCancel>Aktualisierung abgebrochen</updateCancel>
     <!-- NEW TRANSLATE HERE-->
-    <settings>Settings</settings>
+    <settings>Einstellungen</settings>
     <steamUID>Steam UID</steamUID>
     <mission>Mission</mission>
     <online>ONLINE</online>
     <offline>OFFLINE</offline>
-    <notFound>Not found</notFound>
+    <notFound>Nicht gefunden</notFound>
     <support>Support</support>
     <taskforceVersion>Taskforce version</taskforceVersion>
-    <notInstalled>Not installed</notInstalled>
-    <installed>Installed</installed>
+    <notInstalled>Nicht Installiert</notInstalled>
+    <installed>Installiert</installed>
     <updateTaskforceRequire>Update of taskforce required</updateTaskforceRequire>
     <forceUpdateTaskforce>Force update taskforce</forceUpdateTaskforce>
-    <installTaskforce>Install Taksforce</installTaskforce>
+    <installTaskforce>Installiere Taksforce</installTaskforce>
     <updateTaskforce>Update TaskForce</updateTaskforce>
-    <play>Play</play>
+    <play>Spielen</play>
     <download>Download</download>
     <update>Update</update>
     <forceUpdate>Force update</forceUpdate>
-    <visitSite>Visit our site</visitSite>
-    <visitTeamSpeak>Visit our TeamSpeak</visitTeamSpeak>
+    <visitSite>Zur Homepage</visitSite>
+    <visitTeamSpeak>Zum TS3</visitTeamSpeak>
     <modDev>Warning ! ModDev enabled !</modDev>
-    <chooseArma>Choose arma 3 directory</chooseArma>
+    <chooseArma>Wähle deinen Arma3-Ordner</chooseArma>
     <downloadProgress>Download in progress</downloadProgress>
     <armaOK>Arma 3 destination is OK</armaOK>
-    <selectArma>Select arma 3 directory</selectArma>
-    <armaNotOK>Arma 3 destination not OK</armaNotOK>
+    <selectArma>Wähle deinen Arma3-Ordner</selectArma>
+    <armaNotOK>Der Arma3 Ordner ist nicht ok</armaNotOK>
     <success>Success !</success>
-    <waitDownload>Wait until the end of the current download</waitDownload>
-    <updateTaskforceBefore>Please update taskforce before</updateTaskforceBefore>
+    <waitDownload>Warte bis der Download abgeschlossen ist</waitDownload>
+    <updateTaskforceBefore>Bitte Update dein Taskforce</updateTaskforceBefore>
     <downloadInitialisation>Download initalisation</downloadInitialisation>
-    <pleaseWait>Please wait</pleaseWait>
-    <cancelling>Cancelling...</cancelling>
+    <pleaseWait>Bitte warten</pleaseWait>
+    <cancelling>Abbrechen...</cancelling>
     <pause>Pause</pause>
-    <resume>Resume</resume>
+    <resume>Weiter</resume>
     <serverRequest>Request to the server</serverRequest>
     <listingMod>Listing all mods to download</listingMod>
     <listingCpp>Listing all cpps to download</listingCpp>
@@ -272,21 +272,21 @@
     <checkMod>Checking all mods</checkMod>
     <checkCpp>Checking all cpps</checkCpp>
     <downloadStoped>Download stoped</downloadStoped>
-    <downloadFinish>Download finish</downloadFinish>
-    <downloadWillPause>The download will be paused</downloadWillPause>
-    <downloadPaused>Download paused</downloadPaused>
+    <downloadFinish>Download fertig</downloadFinish>
+    <downloadWillPause>Der Download wird pausiert</downloadWillPause>
+    <downloadPaused>Download pausiert</downloadPaused>
     <downloaded>Downloaded</downloaded>
     <of>of</of>
-    <estimatedTime>Estimed time</estimatedTime>
+    <estimatedTime>Verbleibende Zeit</estimatedTime>
     <waitForDownload>Wait for download</waitForDownload>
-    <updateAvailable>Update available</updateAvailable>
+    <updateAvailable>Update Verfügbar</updateAvailable>
     <errorListing>An error occurred during the listing of mods</errorListing>
     <taskforceInstallerMissing>Missing the installer of the task force</taskforceInstallerMissing>
     <installCancel>Installation Cancelled</installCancel>
-    <minutes>Minutes</minutes>
-    <seconds>Seconds</seconds>
-    <hours>Hours</hours>
-    <playersIG>Player online</playersIG>
+    <minutes>Minute</minutes>
+    <seconds>Sekunden</seconds>
+    <hours>Stunden</hours>
+    <playersIG>Spieler online</playersIG>
     <map>Map</map>
     <adminLevel>Admin level</adminLevel>
     <copLevel>Cop level</copLevel>
@@ -294,10 +294,10 @@
     <cash>Cash</cash>
     <bank>Bank</bank>
     <serverStatus>Server status</serverStatus>
-    <IGinformations>In game information</IGinformations>
-    <usefulLink>Useful link</usefulLink>
-    <serverMaintenance>This server is on maintenance !</serverMaintenance>
-    <serverLocked>Server locked</serverLocked>
+    <IGinformations>In Game Information</IGinformations>
+    <usefulLink>Wichtige Links</usefulLink>
+    <serverMaintenance>Der Server ist in Wartung !</serverMaintenance>
+    <serverLocked>Server gespert</serverLocked>
   </DE>
   <SP language="Spanish">
     <languageTitle>Elige tu idioma</languageTitle>

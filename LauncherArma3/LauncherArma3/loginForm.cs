@@ -932,5 +932,10 @@ namespace LauncherArma3
         {
 
         }
+
+        private void loginUsername_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

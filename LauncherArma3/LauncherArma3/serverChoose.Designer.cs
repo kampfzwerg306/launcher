@@ -222,7 +222,7 @@
             this.serverPlayersLabel.Name = "serverPlayersLabel";
             this.serverPlayersLabel.Size = new System.Drawing.Size(126, 14);
             this.serverPlayersLabel.TabIndex = 18;
-            this.serverPlayersLabel.Text = "Players online:";
+            this.serverPlayersLabel.Text = "Spieler online:";
             // 
             // serverMissionLabel
             // 
@@ -257,7 +257,7 @@
             this.nextButton.Primary = true;
             this.nextButton.Size = new System.Drawing.Size(145, 46);
             this.nextButton.TabIndex = 12;
-            this.nextButton.Text = "Continue";
+            this.nextButton.Text = "Weiter";
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
@@ -275,7 +275,7 @@
             this.Name = "serverChoose";
             this.Padding = new System.Windows.Forms.Padding(20, 30, 20, 20);
             this.Resizable = false;
-            this.Text = "Choose a server";
+            this.Text = "Wähle ein Server";
             this.Load += new System.EventHandler(this.serverChoose_Load);
             this.serverChooseBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.serverIcon)).EndInit();

@@ -54,7 +54,7 @@
             this.saveButton.Primary = true;
             this.saveButton.Size = new System.Drawing.Size(121, 27);
             this.saveButton.TabIndex = 12;
-            this.saveButton.Text = "Save";
+            this.saveButton.Text = "Speichern";
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
@@ -67,7 +67,7 @@
             this.changeLanguageButon.Primary = true;
             this.changeLanguageButon.Size = new System.Drawing.Size(150, 35);
             this.changeLanguageButon.TabIndex = 14;
-            this.changeLanguageButon.Text = "Change language";
+            this.changeLanguageButon.Text = "Sprache ändern";
             this.changeLanguageButon.UseVisualStyleBackColor = true;
             this.changeLanguageButon.Click += new System.EventHandler(this.changeLanguageButon_Click);
             // 
@@ -80,7 +80,7 @@
             this.deleteButton.Primary = true;
             this.deleteButton.Size = new System.Drawing.Size(150, 35);
             this.deleteButton.TabIndex = 15;
-            this.deleteButton.Text = "Delete mods";
+            this.deleteButton.Text = "Mods Löschen";
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
@@ -110,7 +110,7 @@
             this.cancelButton.Primary = true;
             this.cancelButton.Size = new System.Drawing.Size(121, 27);
             this.cancelButton.TabIndex = 17;
-            this.cancelButton.Text = "Cancel";
+            this.cancelButton.Text = "Abbrechen";
             this.cancelButton.UseVisualStyleBackColor = true;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -259,7 +259,7 @@
             this.playerStatusLabel.Name = "playerStatusLabel";
             this.playerStatusLabel.Size = new System.Drawing.Size(92, 14);
             this.playerStatusLabel.TabIndex = 34;
-            this.playerStatusLabel.Text = "Game options :";
+            this.playerStatusLabel.Text = "Start optionen:";
             // 
             // settingsForm
             // 
@@ -285,7 +285,7 @@
             this.MaximizeBox = false;
             this.Name = "settingsForm";
             this.Resizable = false;
-            this.Text = "Launcher Options";
+            this.Text = "Launcher Optionen";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.TransparencyKey = System.Drawing.Color.Empty;
             this.Load += new System.EventHandler(this.settingsForm_Load);

@@ -18,7 +18,7 @@ namespace LauncherArma3
             /* GENERAL OPTIONS */
 
             string communityName = "TheDragonHeads";  /* Your serverName */
-            string apiUrl = "http://173.212.197.88:8080/"; /* Link to API launcher Arma 3 */
+            string apiUrl = "http://5.1.89.10/"; /* Link to API launcher Arma 3 */
                         
             /* FTP NO FUNCTIONAL */
 
