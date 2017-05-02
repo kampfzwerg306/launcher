@@ -71,7 +71,6 @@ namespace LauncherArma3
         /* TIME CALCUL */
         DateTime startTimeDownload;
         long bytesPerSecond;
-        long totalRecieved = 0;
         DateTime lastProgressChange = DateTime.Now;
         Stack<int> timeSatck = new Stack<int>(5);
         Stack<long> byteSatck = new Stack<long>(5);
@@ -309,7 +308,7 @@ namespace LauncherArma3
                             }
                         }
                         catch (Exception ex)
-                        { }
+                        { Console.WriteLine(ex); }
                     }
                 }
             }
@@ -809,7 +808,9 @@ namespace LauncherArma3
             }
         }
 
-        private void chooseButton_Click(object sender, EventArgs e)
+
+
+        public void chooseButton_Click(object sender, EventArgs e)
         {
             if (onDownload == true)
             {
@@ -922,12 +923,10 @@ namespace LauncherArma3
 
                 string remote_userconfigs_md5;
                 string local_userconfigs_md5;
-                string currentUserconfigs;
                 string file;
                 string directory;
                 int i = 0;
                 int total_userconfigs = res.total_userconfigs;
-                long currentSize;
 
                 /* LIST DES USERSCONFIGS A TELECHARGER */
                 while (i < total_userconfigs)
@@ -970,7 +969,7 @@ namespace LauncherArma3
             /* CHECK IF ARMA 3 IS ON */
             if (Process.GetProcessesByName("arma3").Length > 0)
             {
-                DialogResult dialogResult = MetroMessageBox.Show(this, "Arma 3 is open, you want to close it ?", "Close Arma 3 ?", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                DialogResult dialogResult = MetroMessageBox.Show(this, "Arma 3 ist offen, willst du es schließen ?", "Arma 3 schließen?", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (dialogResult == DialogResult.Yes)
                 {
                     try
@@ -1708,6 +1707,11 @@ namespace LauncherArma3
             this.DialogResult = DialogResult.Yes;
             normalyClose = true;
             this.Close();
+        }
+
+        private void IGplayer_username_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

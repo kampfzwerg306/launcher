@@ -32,7 +32,7 @@ if (isset($_POST['token']) && isset($_POST['uid']))
         $res = $userLevel->fetch();
         if ($userLevel->rowCount() != 0 && (int)$res['level'] >= 7  && (int)$res['banned'] != 1)
         {
-            $getPlayerInfo = $db_arma->prepare('SELECT * FROM `players` WHERE playerid=:id');
+            $getPlayerInfo = $db_arma->prepare('SELECT * FROM `players` WHERE pid=:id');
             $getPlayerInfo->execute(array('id' => $uid));
             $player = $getPlayerInfo->fetch();
             if ($getPlayerInfo->rowCount() != 0) {

@@ -19,13 +19,13 @@ namespace LauncherArma3
 
             string communityName = "TheDragonHeads";  /* Your serverName */
             string apiUrl = "http://5.1.89.10/"; /* Link to API launcher Arma 3 */
-                        
+
             /* FTP NO FUNCTIONAL */
 
-            string ftp_url = "ftp://173.212.197.88";
-            string ftp_user = "username";
-            string ftp_pass = "passwd";
-           
+            string ftp_url = "ftp://80.237.136.164/";
+            string ftp_user = " ";
+            string ftp_pass = " ";
+
             /* FTP NO FUNCTIONAL */
 
             bool modDev = true;  /* enable or disable modDev */

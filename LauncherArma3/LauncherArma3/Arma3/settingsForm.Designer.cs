@@ -43,6 +43,7 @@
             this.noFilePath = new MaterialSkin.Controls.MaterialCheckBox();
             this.windowed = new MaterialSkin.Controls.MaterialCheckBox();
             this.playerStatusLabel = new FlatUI.FlatLabel();
+            this.arma3pfad = new MaterialSkin.Controls.MaterialRaisedButton();
             this.SuspendLayout();
             // 
             // saveButton
@@ -261,6 +262,19 @@
             this.playerStatusLabel.TabIndex = 34;
             this.playerStatusLabel.Text = "Start optionen:";
             // 
+            // arma3pfad
+            // 
+            this.arma3pfad.Depth = 0;
+            this.arma3pfad.Location = new System.Drawing.Point(433, 254);
+            this.arma3pfad.MouseState = MaterialSkin.MouseState.HOVER;
+            this.arma3pfad.Name = "arma3pfad";
+            this.arma3pfad.Primary = true;
+            this.arma3pfad.Size = new System.Drawing.Size(150, 35);
+            this.arma3pfad.TabIndex = 15;
+            this.arma3pfad.Text = "Arma3 Pfad";
+            this.arma3pfad.UseVisualStyleBackColor = true;
+            this.arma3pfad.Click += new System.EventHandler(this.arma3pfad_Click);
+            // 
             // settingsForm
             // 
             this.AcceptButton = this.saveButton;
@@ -278,6 +292,7 @@
             this.Controls.Add(this.noSplash);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.launchParam);
+            this.Controls.Add(this.arma3pfad);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.changeLanguageButon);
             this.Controls.Add(this.saveButton);
@@ -310,5 +325,6 @@
         private MaterialSkin.Controls.MaterialCheckBox noFilePath;
         private MaterialSkin.Controls.MaterialCheckBox windowed;
         private FlatUI.FlatLabel playerStatusLabel;
+        private MaterialSkin.Controls.MaterialRaisedButton arma3pfad;
     }
 }
