@@ -120,7 +120,7 @@ namespace LauncherArma3
             try
             {
                 Ping myPing = new Ping();
-                String host = "google.de";
+                String host = "google.com";
                 byte[] buffer = new byte[32];
                 int timeout = 1000;
                 PingOptions pingOptions = new PingOptions();

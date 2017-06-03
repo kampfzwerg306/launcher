@@ -55,7 +55,7 @@ if (isset($_POST['token']) && isset($_POST['id']) && is_numeric($_POST['id']))
             if ($userLevel->rowCount() != 0 && (int)$res['banned'] != 1)
             {
 
-                $getPlayerInfo = $custom_db->prepare('SELECT * FROM `players` WHERE pid=:id');
+                $getPlayerInfo = $custom_db->prepare('SELECT * FROM `players` WHERE playerid=:id');
                 $getPlayerInfo->execute(array('id' => $id));
                 $player = $getPlayerInfo->fetch();
                 if ($getPlayerInfo->rowCount() != 0) {

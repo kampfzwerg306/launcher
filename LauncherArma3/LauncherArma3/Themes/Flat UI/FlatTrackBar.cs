@@ -82,6 +82,7 @@ namespace FlatUI
 			{
 				int functionReturnValue = 0;
 				return functionReturnValue;
+				return functionReturnValue;
 			}
 			set
 			{

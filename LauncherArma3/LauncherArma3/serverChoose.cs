@@ -90,6 +90,7 @@ namespace LauncherArma3
             /* VARIABLE DECLARATION */
             int total;
             int i = 0;
+            string tmp;
 
             var client = new RestClient(apiUrl);
             var request = new RestRequest("api/server/list", Method.GET);

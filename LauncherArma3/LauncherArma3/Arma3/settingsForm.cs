@@ -5,20 +5,10 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using RestSharp;
-using Newtonsoft.Json.Linq;
-using MaterialSkin;
-using System.Collections;
-using System.Net;
-using System.Threading;
-using System.Security.Cryptography;
-using Microsoft.Win32;
-using LauncherArma3.Arma3;
 
 namespace LauncherArma3
 {
@@ -31,11 +21,6 @@ namespace LauncherArma3
         bool onDownload;
         string serverID;
 
-
-
-
-
-
         /* VARIABLES */
 
         string appdata = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "/v5.";
@@ -45,7 +30,6 @@ namespace LauncherArma3
         /* RETURN VARIABLES */
         public bool refreshMods { get; set; }
         public string launchOptions { get; set; }
-
 
 
         public settingsForm(string serveur, string arma, bool download, string _serverID)
@@ -219,14 +203,6 @@ namespace LauncherArma3
                 else
                     launchParam.Text = launchParam.Text.Replace(" -skipIntro", "");
             }
-        }
-       
-
-        private void arma3pfad_Click(object sender, EventArgs e)
-        {
-            //launcherMain.chooseButton_Click();
-            //launcherMain.buttonchoosearma3();
-
         }
     }
 }
