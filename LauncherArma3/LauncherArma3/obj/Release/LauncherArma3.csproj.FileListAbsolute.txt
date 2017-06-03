@@ -21,3 +21,6 @@ C:\Users\tim\Desktop\THEDRAGONHEADS\Launcher_Multigaming-5.1.0.0\LauncherArma3\L
 C:\Users\tim\Desktop\THEDRAGONHEADS\Launcher_Multigaming-5.1.0.0\LauncherArma3\LauncherArma3\obj\Release\LauncherArma3.application
 C:\Users\tim\Desktop\THEDRAGONHEADS\Launcher_Multigaming-5.1.0.0\LauncherArma3\LauncherArma3\obj\Release\LauncherArma3.exe
 C:\Users\tim\Desktop\THEDRAGONHEADS\Launcher_Multigaming-5.1.0.0\LauncherArma3\LauncherArma3\obj\Release\LauncherArma3.pdb
+C:\Users\tim\Documents\GitHub\launcher\Debug\LauncherArma3.exe.config
+C:\Users\tim\Documents\GitHub\launcher\LauncherArma3\LauncherArma3\obj\Release\LauncherArma3.exe
+C:\Users\tim\Documents\GitHub\launcher\LauncherArma3\LauncherArma3\obj\Release\LauncherArma3.pdb
