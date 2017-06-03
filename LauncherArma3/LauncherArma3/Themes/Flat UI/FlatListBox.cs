@@ -58,7 +58,11 @@ namespace FlatUI
 		{
 			get
 			{
-                return ListBx.SelectedIndex;                
+				int functionReturnValue = 0;
+				return ListBx.SelectedIndex;
+				if (ListBx.SelectedIndex < 0)
+					return functionReturnValue;
+				return functionReturnValue;
 			}
 		}
 
